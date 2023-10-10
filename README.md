@@ -29,6 +29,6 @@ void main()
 		color = mix(uColorInner, uColorOuter, dist / uDistance);
 
 	// write result
-	fragColor = vec4(color.rgb, 1.0);
+	fragColor = vec4(color.rgb, 0.5);
 }
 ```
